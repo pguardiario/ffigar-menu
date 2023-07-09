@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.et-l--header,#main-header {
+  all: unset;
+}

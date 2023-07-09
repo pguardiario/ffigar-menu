@@ -1,0 +1,2 @@
+rm -rf /var/www/html/wordpress/public_html/wp-content/themes/PG-Divi/static/
+root@VIVOBOOK:~# cp -r /mnt/c/cygwin64/home/pguar/node/green-header/build/static/ /var/www/html/wordpress/public_html/wp-content/themes/PG-Divi/
