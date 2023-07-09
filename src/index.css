@@ -5,3 +5,7 @@
 .et-l--header,#main-header {
   all: unset;
 }
+
+#green-header a {
+  color: white
+}

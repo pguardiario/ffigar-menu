@@ -22,31 +22,31 @@ function FootballKits() {
     <div>
       <h1 className="font-bold my-2 text-md">Nike Football Kits</h1>
       <ul className="text-left text-sm">
-        <li><a href="/">Shirts</a></li>
-        <li><a href="/">Socks</a></li>
-        <li><a href="/">Shorts</a></li>
-        <li><a href="/">Women's</a></li>
-        <li><a href="/">Base Layers</a></li>
+        <li><a href="/nike-football-kit/">Shirts</a></li>
+        <li><a href="/nike-football-kit/">Socks</a></li>
+        <li><a href="/nike-football-kit/">Shorts</a></li>
+        <li><a href="/nike-football-kit/">Women's</a></li>
+        <li><a href="/nike-football-kit/">Base Layers</a></li>
       </ul>
     </div>
     <div>
       <h1 className="font-bold my-2 text-md">Adidas Football Kits</h1>
       <ul className="text-left text-sm">
-        <li><a href="/">Shirts</a></li>
-        <li><a href="/">Socks</a></li>
-        <li><a href="/">Shorts</a></li>
-        <li><a href="/">Women's</a></li>
-        <li><a href="/">Base Layers</a></li>
+        <li><a href="/adidas-football-kit/">Shirts</a></li>
+        <li><a href="/adidas-football-kit/">Socks</a></li>
+        <li><a href="/adidas-football-kit/">Shorts</a></li>
+        <li><a href="/adidas-football-kit/">Women's</a></li>
+        <li><a href="/adidas-football-kit/">Base Layers</a></li>
       </ul>
     </div>
     <div>
       <h1 className="font-bold my-2 text-md">Stanno Football Kits</h1>
       <ul className="text-left text-sm">
-        <li><a href="/stanno-football-shirts/">Shirts</a></li>
-        <li><a href="https://ffigar.com/stanno-football-socks/">Socks</a></li>
-        <li><a href="/stanno-football-shorts/">Shorts</a></li>
-        <li><a href="/">Women's</a></li>
-        <li><a href="/">Base Layers</a></li>
+        <li><a href="/stanno-football-kit/">Shirts</a></li>
+        <li><a href="/stanno-football-kit/">Socks</a></li>
+        <li><a href="/stanno-football-kit/">Shorts</a></li>
+        <li><a href="/stanno-football-kit/">Women's</a></li>
+        <li><a href="/stanno-football-kit/">Base Layers</a></li>
       </ul>
     </div>
     <div>
