@@ -161,7 +161,7 @@ async function doItem(item) {
   parent.Categories
   let brand = getBrand(item.name)
   let type = getType(item.name)
-  let categories = `Shop > Goalkeeper Kits, Shop, Shop > Goalkeeper Kits > ${brand}, Shop > Goalkeeper Kits > ${brand} > ${type}`
+  let categories = `Shop > ${type} Kits, Shop > ${type} Kits > ${brand}, Shop > ${type} Kits > ${brand} > ${brand} ${type}`
   let description = $('.text-left > p').html()?.split("<br>").pop() || ""
   let product = {
     ...parent,
@@ -200,6 +200,8 @@ async function doItem(item) {
   // debugger
 }
 
+const type = "Footbal"
+
 async function run() {
   let rows = await load("./scripts/x.csv")
   parent = rows.find(row => row.Type === "variable")
@@ -207,9 +209,11 @@ async function run() {
   for(let url of [
     // "https://www.discountfootballkits.com/Nike_Goalkeeper_Kits",
     // "https://www.discountfootballkits.com/Adidas_Goalkeeper_Kits",
-    "https://www.discountfootballkits.com/Stanno_Goalkeeper_Kits",
+    // "https://www.discountfootballkits.com/Stanno_Goalkeeper_Kits",
     // "https://www.discountfootballkits.com/puma-goalkeeper-kits",
-    "https://www.discountfootballkits.com/joma-goalkeeper-kits"
+    // "https://www.discountfootballkits.com/joma-goalkeeper-kits"
+    "https://www.discountfootballkits.com/Stanno_Football_Kits",
+    "https://www.discountfootballkits.com/joma-football-kits",
   ]){
     let html = await fetch(url).then(r => r.text())
     let $ = cheerio.load(html)
@@ -233,3 +237,5 @@ run()
 
 
 
+// https://ffigar.com/joma-goalkeeper-kit/
+// https://ffigar.com/stanno-goalkeeper-kit/
