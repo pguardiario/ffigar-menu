@@ -45,19 +45,17 @@ let hoodies = [
 ]
 
 function Hoodies() {
-  return <div className="grid grid-cols-6 gap-10 mt-2 mb-6 text-black bg-white shadow-sm shadow-gray-600 p-4 text-sm">
-
-
+  return <div className="grid grid-cols-4 gap-10 mt-2 mb-6 text-black bg-white shadow-sm shadow-gray-600 p-4 text-sm">
     <div className="text-center font-bold">
       <a href="https://ffigar.com/school-leavers-hoodies/">
         <img className="rounded-lg aspect-square" src="https://res.cloudinary.com/stitch-group/image/upload/c_scale,q_auto:eco,w_500/v1541692827/garment-images/varsity-hoodie-mainphoto.jpg" alt="Create your Own Hoodie" />
-        <p>Create your Own School Leavers Hoodie</p>
+        <p className="mt-2">Create your Own School Leavers Hoodie</p>
       </a>
     </div>
     {hoodies.sort((a, b) => a.name.localeCompare(b.name)).map((club, i) => <div className="text-center font-bold">
       <a href={club.url}>
         <img className="rounded-lg" src={club.image || "https://placehold.co/200?text=No%20Image"} alt={club.name} />
-        <p>{club.name}</p>
+        <p className="mt-2">{club.name}</p>
       </a>
     </div>)}
 

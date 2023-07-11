@@ -1,5 +1,5 @@
 function FootballKits() {
-  return <div className="grid grid-cols-6 gap-2 mt-2 mb-6 text-black bg-white shadow-sm shadow-gray-600 p-4">
+  return <div className="grid grid-cols-5 gap-2 mt-2 mb-6 text-black bg-white shadow-sm shadow-gray-600 p-4">
     <div>
       <img className="img-responsive" src="https://images.discountfootballkits.com/1672999763_Nike2023_navbar.jpg" />
     </div>
@@ -15,9 +15,9 @@ function FootballKits() {
     <div>
       <img className="img-responsive" src="https://images.discountfootballkits.com/1623138618_footballkits.jpg" />
     </div>
-    <div>
+    {/* <div>
       <img className="img-responsive" src="https://images.discountfootballkits.com/1659515866_baselayers.jpg" />
-    </div>
+    </div> */}
 
     <div>
       <h1 className="font-bold my-2 text-md">Nike Football Kits</h1>
@@ -69,7 +69,7 @@ function FootballKits() {
         <li><a href="/joma-football-kit/">Base Layers</a></li>
       </ul>
     </div>
-    <div>
+    {/* <div>
       <h1 className="font-bold my-2 text-md">Base Layers</h1>
       <ul className="text-left text-sm">
         <li><a href="/">Vesey Base Layers</a></li>
@@ -79,7 +79,7 @@ function FootballKits() {
         <li><a href="/">Puma Base Layers</a></li>
         <li><a href="/">Joma Base Layers</a></li>
       </ul>
-    </div>
+    </div> */}
   </div>
 }
 

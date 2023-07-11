@@ -138,7 +138,7 @@ let clubs = [
 ]
 
 function Universities() {
-  return <div className="grid grid-cols-6 gap-10 mt-2 mb-6 text-black bg-white shadow-sm shadow-gray-600 p-4">
+  return <div className="grid grid-cols-6 gap-10 mt-2 mb-6 text-black bg-white shadow-sm shadow-gray-600 p-4 text-sm">
     {clubs.sort((a, b) => a.name.localeCompare(b.name)).map((club, i) => <div className="text-center font-bold">
       <a href={club.url}>
         <img className="rounded-lg" src={club.image || "https://placehold.co/200?text=No%20Image"} alt={club.name} />

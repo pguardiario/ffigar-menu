@@ -6,6 +6,6 @@
   all: unset;
 }
 
-#green-header a {
+#green-header > div > a {
   color: white
 }

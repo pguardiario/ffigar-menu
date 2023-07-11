@@ -30,6 +30,8 @@
     ]
   },
   "devDependencies": {
+    "csv-write-stream": "^2.0.0",
+    "csvtojson": "^2.0.10",
     "daisyui": "^3.2.1",
     "tailwindcss": "^3.3.2"
   }

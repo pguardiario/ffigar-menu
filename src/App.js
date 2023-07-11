@@ -11,8 +11,8 @@ function Search() {
   return <div className="flex">
     <div className="flex-1"></div>
     <div className="bg-green-500 p-2 text-black space-x-2">
-      <form action="/search">
-        <input type="text" name="q" className="rounded text-lg p-1 pl-4 m-0 mr-2" placeholder="search" />
+      <form action="https://ffigar.com/shop/">
+        <input type="text" name="s" className="rounded text-lg p-1 pl-4 m-0 mr-2" placeholder="search" />
         {/* <button>🔍</button> */}
       </form>
     </div>
@@ -29,10 +29,12 @@ function App() {
   }
 
   return <header id="green-header" className="text-white">
-    <div className="bg-[#222a2d] py-12 flex justify-center">
-      <img src="https://ffigar.com/wp-content/uploads/2021/12/FfigarLogoOriginalWhite.png" className="w-3/4" />
+    <div className="bg-[#222a2d] py-12">
+      <a className="flex justify-center" href="/" alt="logo">
+        <img src="https://ffigar.com/wp-content/uploads/2021/12/FfigarLogoOriginalWhite.png" className="w-3/4" />
+      </a>
     </div>
-    <div className="w-full bg-green-600 text-white text-sm md:flex justify-center space-x-2 font-bold">
+    <div className="w-full bg-green-600 text-white text-sm flex flex-wrap justify-center space-x-2 font-bold">
       <a href="/" className="py-1 p-2 hover:bg-green-400">
         <p>Home</p>
       </a>
@@ -47,7 +49,7 @@ function App() {
         <p>Goalkeeper Kits</p>
       </button>
       <button onMouseEnter={() => setMenu("trainingwear")} onMouseLeave={() => setMenu()} className={`${menu === "trainingwear" ? "bg-green-400" : ""} py-1 p-2`}>
-        <p>Trainingwear</p>
+        <p>Training Wear</p>
       </button>
 
 
